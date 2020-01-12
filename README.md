@@ -110,4 +110,6 @@ Substitute and simplify to get the TDE in the transformed coordinates
 
 ### The equations have the same solutions
 
+Since both the PDE and TDE are Galilean covariant and the same psi -> psi' transformation works for both equations, both equations have the same solutions.
+
 ### Uniqueness of the PDE and TDE
