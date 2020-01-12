@@ -27,13 +27,17 @@ Proof that these are the unique linear PDE and TDE that are 1st order in time, w
 Consider a Galilean Transformation
 
 x' = x + vt + x_0
+
 t' = t + t_0
+
 p' = p + mv
 
 and its inverse transformation
 
 x = x' - vt' - x_0
+
 t = t' - t_0
+
 p = p' - mv
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;x'}&space;=&space;\frac{\partial&space;t}{\partial&space;x'}&space;\frac{\partial}{\partial&space;t}&space;&plus;\frac{\partial&space;x}{\partial&space;x'}&space;\frac{\partial}{\partial&space;x}&space;&plus;&space;\frac{\partial&space;p}{\partial&space;x'}&space;\frac{\partial}{\partial&space;p}&space;=&space;\frac{\partial}{\partial&space;x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;x'}&space;=&space;\frac{\partial&space;t}{\partial&space;x'}&space;\frac{\partial}{\partial&space;t}&space;&plus;\frac{\partial&space;x}{\partial&space;x'}&space;\frac{\partial}{\partial&space;x}&space;&plus;&space;\frac{\partial&space;p}{\partial&space;x'}&space;\frac{\partial}{\partial&space;p}&space;=&space;\frac{\partial}{\partial&space;x}" title="\frac{\partial}{\partial x'} = \frac{\partial t}{\partial x'} \frac{\partial}{\partial t} +\frac{\partial x}{\partial x'} \frac{\partial}{\partial x} + \frac{\partial p}{\partial x'} \frac{\partial}{\partial p} = \frac{\partial}{\partial x}" /></a>
@@ -55,6 +59,8 @@ Start with the PDE
 <a href="https://www.codecogs.com/eqnedit.php?latex=i&space;\hbar&space;\frac{\partial}{\partial&space;t}&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&plus;V-i\hbar&space;(\frac{p_C}{m_C}\frac{\partial}{\partial&space;x_C}-\frac{\partial&space;V}{\partial&space;x_C}\frac{\partial}{\partial&space;p_C})]\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i&space;\hbar&space;\frac{\partial}{\partial&space;t}&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&plus;V-i\hbar&space;(\frac{p_C}{m_C}\frac{\partial}{\partial&space;x_C}-\frac{\partial&space;V}{\partial&space;x_C}\frac{\partial}{\partial&space;p_C})]\psi" title="i \hbar \frac{\partial}{\partial t} \psi = [-\frac{\hbar^2}{2m_Q} \frac{\partial^2}{\partial x_Q^2}+V-i\hbar (\frac{p_C}{m_C}\frac{\partial}{\partial x_C}-\frac{\partial V}{\partial x_C}\frac{\partial}{\partial p_C})]\psi" /></a>
 
 Substitute in the equations for the Galilean transformation
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=i&space;\hbar&space;(\frac{\partial}{\partial&space;t'}&plus;v\frac{\partial}{\partial&space;x'_Q}&plus;v\frac{\partial}{\partial&space;x'_C})&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x'_Q})^2&plus;V-i\hbar&space;(\frac{p'_C&plus;m_C&space;v}{m_C}\frac{\partial}{\partial&space;x'_C}-\frac{\partial&space;V}{\partial&space;x'_C}\frac{\partial}{\partial&space;p'_C})]\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i&space;\hbar&space;(\frac{\partial}{\partial&space;t'}&plus;v\frac{\partial}{\partial&space;x'_Q}&plus;v\frac{\partial}{\partial&space;x'_C})&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x'_Q})^2&plus;V-i\hbar&space;(\frac{p'_C&plus;m_C&space;v}{m_C}\frac{\partial}{\partial&space;x'_C}-\frac{\partial&space;V}{\partial&space;x'_C}\frac{\partial}{\partial&space;p'_C})]\psi" title="i \hbar (\frac{\partial}{\partial t'}+v\frac{\partial}{\partial x'_Q}+v\frac{\partial}{\partial x'_C}) \psi = [-\frac{\hbar^2}{2m_Q} (\frac{\partial}{\partial x'_Q})^2+V-i\hbar (\frac{p'_C+m_C v}{m_C}\frac{\partial}{\partial x'_C}-\frac{\partial V}{\partial x'_C}\frac{\partial}{\partial p'_C})]\psi" /></a>
 
 
 
