@@ -6,7 +6,7 @@
 
 ## TDE
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt}\psi=[\frac{1}{2}m_Q&space;\dot{x_Q}^2&space;&plus;&space;p_C&space;\dot{x_C}&space;-&space;\frac{p_C^2}{2m_C}&space;-V(x_Q,&space;x_C,&space;t)]\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt}\psi=[\frac{1}{2}m_Q&space;\dot{x_Q}^2&space;&plus;&space;p_C&space;\dot{x_C}&space;-&space;\frac{p_C^2}{2m_C}&space;-V(x_Q,&space;x_C,&space;t)]\psi" title="-i \hbar \frac{d}{dt}\psi=[\frac{1}{2}m_Q \dot{x_Q}^2 + p_C \dot{x_C} - \frac{p_C^2}{2m_C} -V(x_Q, x_C, t)]\psi" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt}\psi=[\frac{1}{2}m_Q&space;\dot{x_Q}^2&space;&plus;&space;p_C&space;\dot{x_C}&space;-&space;\frac{p_C^2}{2m_C}&space;-V]\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt}\psi=[\frac{1}{2}m_Q&space;\dot{x_Q}^2&space;&plus;&space;p_C&space;\dot{x_C}&space;-&space;\frac{p_C^2}{2m_C}&space;-V]\psi" title="-i \hbar \frac{d}{dt}\psi=[\frac{1}{2}m_Q \dot{x_Q}^2 + p_C \dot{x_C} - \frac{p_C^2}{2m_C} -V]\psi" /></a>
 
 ## Notes:
 
@@ -79,7 +79,11 @@ And substitute
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;i&space;\hbar&space;(\frac{\partial}{\partial&space;t'}&plus;v\frac{\partial}{\partial&space;x'_Q})&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;i&space;\hbar&space;(\frac{\partial}{\partial&space;t'}&plus;v\frac{\partial}{\partial&space;x'_Q})&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'" title="i \hbar (\frac{\partial}{\partial t'}+v\frac{\partial}{\partial x'_Q}) e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t' + m_Cvx'_C + \frac{1}{2}m_Qv^2t' + m_Qvx'_Q)} \psi'" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x'_Q})^2&plus;V'-i\hbar&space;(\frac{p'_C}{m_C}\frac{\partial}{\partial&space;x'_C}-\frac{\partial&space;V'}{\partial&space;x'_C}\frac{\partial}{\partial&space;p'_C})]&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x'_Q})^2&plus;V'-i\hbar&space;(\frac{p'_C}{m_C}\frac{\partial}{\partial&space;x'_C}-\frac{\partial&space;V'}{\partial&space;x'_C}\frac{\partial}{\partial&space;p'_C})]&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'" title="= [-\frac{\hbar^2}{2m_Q} (\frac{\partial}{\partial x'_Q})^2+V'-i\hbar (\frac{p'_C}{m_C}\frac{\partial}{\partial x'_C}-\frac{\partial V'}{\partial x'_C}\frac{\partial}{\partial p'_C})] e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t' + m_Cvx'_C + \frac{1}{2}m_Qv^2t' + m_Qvx'_Q)} \psi'" /></a>
 
-Simplify...
+Simplify...  (Too difficult to write the work here, unfortunately)
+
+To get the original PDE in the new coordinates
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=i&space;\hbar&space;\frac{\partial}{\partial&space;t'}&space;\psi'&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x_Q'})^2&plus;V'-i\hbar&space;(\frac{p'_C}{m_C}\frac{\partial}{\partial&space;x_C'}-\frac{\partial&space;V'}{\partial&space;x_C'}\frac{\partial}{\partial&space;p_C'})]\psi'" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i&space;\hbar&space;\frac{\partial}{\partial&space;t'}&space;\psi'&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x_Q'})^2&plus;V'-i\hbar&space;(\frac{p'_C}{m_C}\frac{\partial}{\partial&space;x_C'}-\frac{\partial&space;V'}{\partial&space;x_C'}\frac{\partial}{\partial&space;p_C'})]\psi'" title="i \hbar \frac{\partial}{\partial t'} \psi' = [-\frac{\hbar^2}{2m_Q} (\frac{\partial}{\partial x_Q'})^2+V'-i\hbar (\frac{p'_C}{m_C}\frac{\partial}{\partial x_C'}-\frac{\partial V'}{\partial x_C'}\frac{\partial}{\partial p_C'})]\psi'" /></a>
 
 ### Galilean Covariance of TDE
 
@@ -100,7 +104,9 @@ Make the definition
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\psi(x_Q&space;,&space;x_C,&space;p_C,&space;t)&space;=&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'(x'_Q,&space;x'_C,&space;p'_C,&space;t')" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\psi(x_Q&space;,&space;x_C,&space;p_C,&space;t)&space;=&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'(x'_Q,&space;x'_C,&space;p'_C,&space;t')" title="\psi(x_Q , x_C, p_C, t) = e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t' + m_Cvx'_C + \frac{1}{2}m_Qv^2t' + m_Qvx'_Q)} \psi'(x'_Q, x'_C, p'_C, t')" /></a>
 
+Substitute and simplify to get the TDE in the transformed coordinates
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt'}\psi'=[\frac{1}{2}m_Q&space;\dot{x_Q'}^2&space;&plus;&space;p_C'&space;\dot{x_C}'&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi'" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt'}\psi'=[\frac{1}{2}m_Q&space;\dot{x_Q'}^2&space;&plus;&space;p_C'&space;\dot{x_C}'&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi'" title="-i \hbar \frac{d}{dt'}\psi'=[\frac{1}{2}m_Q \dot{x_Q'}^2 + p_C' \dot{x_C}' - \frac{p_C'^2}{2m_C} -V']\psi'" /></a>
 
 ### The equations have the same solutions
 
