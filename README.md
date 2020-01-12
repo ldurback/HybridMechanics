@@ -93,6 +93,9 @@ Substitute in the equations for the Galilean transformation
 
 Simplify
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt'}\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt'}\psi" title="-i \hbar \frac{d}{dt'}\psi" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex==[\frac{1}{2}m_Q&space;(\dot{x_Q}'^2-2&space;\dot{x_Q}'&space;v&space;&plus;&space;v^2)&space;&plus;&space;p'_C&space;\dot{x_C}'&space;-&space;m_Cv&space;\dot{x_C}'&plus;\frac{1}{2}m_Cv^2&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?=[\frac{1}{2}m_Q&space;(\dot{x_Q}'^2-2&space;\dot{x_Q}'&space;v&space;&plus;&space;v^2)&space;&plus;&space;p'_C&space;\dot{x_C}'&space;-&space;m_Cv&space;\dot{x_C}'&plus;\frac{1}{2}m_Cv^2&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi" title="=[\frac{1}{2}m_Q (\dot{x_Q}'^2-2 \dot{x_Q}' v + v^2) + p'_C \dot{x_C}' - m_Cv \dot{x_C}'+\frac{1}{2}m_Cv^2 - \frac{p_C'^2}{2m_C} -V']\psi" /></a>
+
 ### The equations have the same solutions
 
 ### Uniqueness of the PDE and TDE
