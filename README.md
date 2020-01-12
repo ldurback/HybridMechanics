@@ -66,7 +66,11 @@ Simplify
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;i&space;\hbar&space;(\frac{\partial}{\partial&space;t'}&plus;v\frac{\partial}{\partial&space;x'_Q})&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x'_Q})^2&plus;V-i\hbar&space;(\frac{p'_C}{m_C}\frac{\partial}{\partial&space;x'_C}-\frac{\partial&space;V}{\partial&space;x'_C}\frac{\partial}{\partial&space;p'_C})]\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;i&space;\hbar&space;(\frac{\partial}{\partial&space;t'}&plus;v\frac{\partial}{\partial&space;x'_Q})&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;(\frac{\partial}{\partial&space;x'_Q})^2&plus;V-i\hbar&space;(\frac{p'_C}{m_C}\frac{\partial}{\partial&space;x'_C}-\frac{\partial&space;V}{\partial&space;x'_C}\frac{\partial}{\partial&space;p'_C})]\psi" title="i \hbar (\frac{\partial}{\partial t'}+v\frac{\partial}{\partial x'_Q}) \psi = [-\frac{\hbar^2}{2m_Q} (\frac{\partial}{\partial x'_Q})^2+V-i\hbar (\frac{p'_C}{m_C}\frac{\partial}{\partial x'_C}-\frac{\partial V}{\partial x'_C}\frac{\partial}{\partial p'_C})]\psi" /></a>
 
+Make the definition
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\psi(x_Q&space;,&space;x_C,&space;p_C,&space;t)&space;=&space;e^{\frac{1}{i\hbar}(\frac{1}{2}mv^2t'&plus;mvx'_C&plus;mvx'_Q)}&space;\psi'(x'_Q,&space;x'_C,&space;p'_C,&space;t')" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\psi(x_Q&space;,&space;x_C,&space;p_C,&space;t)&space;=&space;e^{\frac{1}{i\hbar}(\frac{1}{2}mv^2t'&plus;mvx'_C&plus;mvx'_Q)}&space;\psi'(x'_Q,&space;x'_C,&space;p'_C,&space;t')" title="\psi(x_Q , x_C, p_C, t) = e^{\frac{1}{i\hbar}(\frac{1}{2}mv^2t'+mvx'_C+mvx'_Q)} \psi'(x'_Q, x'_C, p'_C, t')" /></a>
+
+And substitute
 
 ### Galilean Covariance of TDE
 
