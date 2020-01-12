@@ -89,12 +89,18 @@ Start with the TDE
 
 Substitute in the equations for the Galilean transformation
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt'}\psi=[\frac{1}{2}m_Q&space;(\dot{x_Q}'-v)^2&space;&plus;&space;(p'_C-mv)&space;(\dot{x_C}'-v)&space;-&space;\frac{(p_C'-mv)^2}{2m_C}&space;-V']\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt'}\psi=[\frac{1}{2}m_Q&space;(\dot{x_Q}'-v)^2&space;&plus;&space;(p'_C-mv)&space;(\dot{x_C}'-v)&space;-&space;\frac{(p_C'-mv)^2}{2m_C}&space;-V']\psi" title="-i \hbar \frac{d}{dt'}\psi=[\frac{1}{2}m_Q (\dot{x_Q}'-v)^2 + (p'_C-mv) (\dot{x_C}'-v) - \frac{(p_C'-mv)^2}{2m_C} -V']\psi" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt'}\psi=[\frac{1}{2}m_Q&space;(\dot{x_Q}'-v)^2&space;&plus;&space;(p'_C-m_Cv)&space;(\dot{x_C}'-v)&space;-&space;\frac{(p_C'-m_Cv)^2}{2m_C}&space;-V']\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt'}\psi=[\frac{1}{2}m_Q&space;(\dot{x_Q}'-v)^2&space;&plus;&space;(p'_C-m_Cv)&space;(\dot{x_C}'-v)&space;-&space;\frac{(p_C'-m_Cv)^2}{2m_C}&space;-V']\psi" title="-i \hbar \frac{d}{dt'}\psi=[\frac{1}{2}m_Q (\dot{x_Q}'-v)^2 + (p'_C-m_Cv) (\dot{x_C}'-v) - \frac{(p_C'-m_Cv)^2}{2m_C} -V']\psi" /></a>
 
 Simplify
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt'}\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt'}\psi" title="-i \hbar \frac{d}{dt'}\psi" /></a>
 <a href="https://www.codecogs.com/eqnedit.php?latex==[\frac{1}{2}m_Q&space;(\dot{x_Q}'^2-2&space;\dot{x_Q}'&space;v&space;&plus;&space;v^2)&space;&plus;&space;p'_C&space;\dot{x_C}'&space;-&space;m_Cv&space;\dot{x_C}'&plus;\frac{1}{2}m_Cv^2&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?=[\frac{1}{2}m_Q&space;(\dot{x_Q}'^2-2&space;\dot{x_Q}'&space;v&space;&plus;&space;v^2)&space;&plus;&space;p'_C&space;\dot{x_C}'&space;-&space;m_Cv&space;\dot{x_C}'&plus;\frac{1}{2}m_Cv^2&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi" title="=[\frac{1}{2}m_Q (\dot{x_Q}'^2-2 \dot{x_Q}' v + v^2) + p'_C \dot{x_C}' - m_Cv \dot{x_C}'+\frac{1}{2}m_Cv^2 - \frac{p_C'^2}{2m_C} -V']\psi" /></a>
+
+Make the definition
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\psi(x_Q&space;,&space;x_C,&space;p_C,&space;t)&space;=&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'(x'_Q,&space;x'_C,&space;p'_C,&space;t')" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\psi(x_Q&space;,&space;x_C,&space;p_C,&space;t)&space;=&space;e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t'&space;&plus;&space;m_Cvx'_C&space;&plus;&space;\frac{1}{2}m_Qv^2t'&space;&plus;&space;m_Qvx'_Q)}&space;\psi'(x'_Q,&space;x'_C,&space;p'_C,&space;t')" title="\psi(x_Q , x_C, p_C, t) = e^{\frac{1}{i\hbar}(\frac{1}{2}m_Cv^2t' + m_Cvx'_C + \frac{1}{2}m_Qv^2t' + m_Qvx'_Q)} \psi'(x'_Q, x'_C, p'_C, t')" /></a>
+
+
 
 ### The equations have the same solutions
 
