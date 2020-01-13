@@ -108,8 +108,30 @@ Substitute and simplify to get the TDE in the transformed coordinates
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=-i&space;\hbar&space;\frac{d}{dt'}\psi'=[\frac{1}{2}m_Q&space;\dot{x_Q'}^2&space;&plus;&space;p_C'&space;\dot{x_C}'&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi'" target="_blank"><img src="https://latex.codecogs.com/gif.latex?-i&space;\hbar&space;\frac{d}{dt'}\psi'=[\frac{1}{2}m_Q&space;\dot{x_Q'}^2&space;&plus;&space;p_C'&space;\dot{x_C}'&space;-&space;\frac{p_C'^2}{2m_C}&space;-V']\psi'" title="-i \hbar \frac{d}{dt'}\psi'=[\frac{1}{2}m_Q \dot{x_Q'}^2 + p_C' \dot{x_C}' - \frac{p_C'^2}{2m_C} -V']\psi'" /></a>
 
-### The equations have the same solutions
+## Uniqueness of the PDE and TDE (To Do)
 
-Since both the PDE and TDE are Galilean covariant and the same psi -> psi' transformation works for both equations, both equations have the same solutions.
+...
 
-### Uniqueness of the PDE and TDE
+## The equations have the same solutions
+
+Since both the PDE and TDE uniquely describe a Galilean relativistic field over the same configuration space, we must have that the same solutions work for both equations.
+
+## Energy Conservation
+
+Defining the energy operator
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{E}&space;=&space;-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&space;&plus;&space;\frac{p_C^2}{2m_C}&space;&plus;&space;V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{E}&space;=&space;-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&space;&plus;&space;\frac{p_C^2}{2m_C}&space;&plus;&space;V" title="\hat{E} = -\frac{\hbar^2}{2m_Q} \frac{\partial^2}{\partial x_Q^2} + \frac{p_C^2}{2m_C} + V" /></a>
+
+And defining
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\hat{D}&space;=&space;-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&plus;V-i\hbar&space;(\frac{p_C}{m_C}\frac{\partial}{\partial&space;x_C}-\frac{\partial&space;V}{\partial&space;x_C}\frac{\partial}{\partial&space;p_C})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{D}&space;=&space;-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&plus;V-i\hbar&space;(\frac{p_C}{m_C}\frac{\partial}{\partial&space;x_C}-\frac{\partial&space;V}{\partial&space;x_C}\frac{\partial}{\partial&space;p_C})" title="\hat{D} = -\frac{\hbar^2}{2m_Q} \frac{\partial^2}{\partial x_Q^2}+V-i\hbar (\frac{p_C}{m_C}\frac{\partial}{\partial x_C}-\frac{\partial V}{\partial x_C}\frac{\partial}{\partial p_C})" /></a>
+
+We see that
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=[\hat{D},&space;\hat{E}]&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?[\hat{D},&space;\hat{E}]&space;=&space;0" title="[\hat{D}, \hat{E}] = 0" /></a>
+
+And so the energy is conserved.
+
+## Probability Conservation
+
+Since the operator <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{D}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{D}" title="\hat{D}" /></a> is hermitian and <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{2}m_Q&space;\dot{x_Q}^2&space;&plus;&space;p_C&space;\dot{x_C}&space;-&space;\frac{p_C^2}{2m_C}&space;-V" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{2}m_Q&space;\dot{x_Q}^2&space;&plus;&space;p_C&space;\dot{x_C}&space;-&space;\frac{p_C^2}{2m_C}&space;-V" title="\frac{1}{2}m_Q \dot{x_Q}^2 + p_C \dot{x_C} - \frac{p_C^2}{2m_C} -V" /></a> is real, the time evolution of psi is unitary, which implies |psi|^2, the probability, is conserved.
