@@ -112,7 +112,9 @@ Substitute and simplify to get the TDE in the transformed coordinates
 
 ...
 
-## The equations have the same solutions
+## The equations have the same solutions (WIP)
+
+Note that f in the transformation psi = e^{if} psi' is not the same for the TDE and PDE.  However, the e^{if} factor, in general, does not affect the probability density |psi|^2.
 
 Since both the PDE and TDE uniquely describe a Galilean relativistic field over the same configuration space, we must have that the same solutions work for both equations.
 
