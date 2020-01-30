@@ -1,5 +1,7 @@
 # HybridMechanics
 
+Woops.  This was ill advised.  I was searching for an equation of Copenhagen mechanics, but it turns out to only conserve energy under special situations.
+
 ## PDE
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=i&space;\hbar&space;\frac{\partial}{\partial&space;t}&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&plus;V-i\hbar&space;(\frac{p_C}{m_C}\frac{\partial}{\partial&space;x_C}-\frac{\partial&space;V}{\partial&space;x_C}\frac{\partial}{\partial&space;p_C})]\psi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i&space;\hbar&space;\frac{\partial}{\partial&space;t}&space;\psi&space;=&space;[-\frac{\hbar^2}{2m_Q}&space;\frac{\partial^2}{\partial&space;x_Q^2}&plus;V-i\hbar&space;(\frac{p_C}{m_C}\frac{\partial}{\partial&space;x_C}-\frac{\partial&space;V}{\partial&space;x_C}\frac{\partial}{\partial&space;p_C})]\psi" title="i \hbar \frac{\partial}{\partial t} \psi = [-\frac{\hbar^2}{2m_Q} \frac{\partial^2}{\partial x_Q^2}+V-i\hbar (\frac{p_C}{m_C}\frac{\partial}{\partial x_C}-\frac{\partial V}{\partial x_C}\frac{\partial}{\partial p_C})]\psi" /></a>
